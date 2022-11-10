@@ -1,0 +1,13 @@
+{
+  "type": "horrorgins:wolf_howl",
+  "cooldown": 1200,
+  "hud_render": {
+    "sprite_location": "origins:textures/gui/community/spiderkolo/resource_bar_03.png",
+    "bar_index": 4
+  },
+  "key": {
+    "key": "key.origins.primary_active"
+  },
+  "name": "Howl of the pack",
+  "description": "Use the primary power key to release a mighty howl that summons up to 3 wolves to your side. You may channel your inner beast to use this even outside of wolf form"
+}

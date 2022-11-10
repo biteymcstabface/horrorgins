@@ -1,0 +1,15 @@
+{
+  "type": "origins:prevent_sleep",
+  "block_condition": {
+    "type": "origins:height",
+    "comparison": ">",
+    "compare_to": 0
+  },
+  "message": "Your beast blood prevents you from sleeping",
+  "condition": {
+	"type": "origins:power_active",
+	"power": "horrorgins:wolf_dummy"
+  },
+  "name": "Restlessness",
+  "description": "Your beast blood prevents you from sleeping."
+}

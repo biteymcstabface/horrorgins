@@ -1,0 +1,14 @@
+{
+  "type": "origins:modify_exhaustion",
+  "modifier": {
+    "name": "Extra exhaustion from large appetite",
+    "operation": "multiply_base",
+    "value": 0.6
+  },
+  "condition": {
+    "type": "origins:power_active",
+    "power": "horrorgins:wolf_dummy"
+  },
+  "name": "Hungry like the wolf",
+  "description": "The beast must feed. You exhaust faster in wolf form"
+}

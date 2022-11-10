@@ -1,0 +1,8 @@
+{
+  "type": "origins:simple",
+  "condition": {
+    "type": "origins:daytime",
+    "inverted": true
+  },
+  "hidden": true
+}

@@ -1,0 +1,8 @@
+{
+  "type": "horrorgins:hide_nametag",
+  "condition": {
+    "type": "origins:power_active",
+    "power": "horrorgins:wolf_dummy"
+  },
+  "hidden": true
+}

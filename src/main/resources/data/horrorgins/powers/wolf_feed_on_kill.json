@@ -1,0 +1,15 @@
+{
+  "type": "origins:self_action_on_kill",
+  "entity_action": {
+    "type": "origins:feed",
+    "food": 4,
+    "saturation": 2
+  },
+  "condition": {
+    "type": "origins:power_active",
+    "power": "horrorgins:wolf_dummy"
+  },
+  "name": "Hunter",
+  "description": "In wolf form, you can feed yourself by defeating enemies"
+
+}

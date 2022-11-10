@@ -1,0 +1,15 @@
+{
+  "type": "origins:conditioned_attribute",
+  "modifier": {
+    "name": "Tailwind speed bonus",
+    "attribute": "minecraft:generic.movement_speed",
+    "value": 2.00,
+    "operation": "multiply_base"
+  },
+  "condition": {
+    "type": "origins:power_active",
+    "power": "horrorgins:wolf_dummy"
+  },
+  "name":"Strong Legs",
+  "description": "As a wolf, your strong legs can carry you forward at great speeds, and allow you to walk up single blocks"
+}

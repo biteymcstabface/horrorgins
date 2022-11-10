@@ -1,0 +1,15 @@
+{
+  "type": "origins:modify_damage_dealt",
+  "modifier": {
+    "name": "Ghost no attack damage",
+    "attribute": "minecraft:generic.attack_damage",
+    "value": -1,
+    "operation": "multiply_total"
+  },
+  "condition": {
+    "type": "origins:power_active",
+    "power": "origins:phantomize"
+  },
+  "name": "Spectral Arms",
+  "description": "Whilst invisible, you have lost your ability to harm others."
+}

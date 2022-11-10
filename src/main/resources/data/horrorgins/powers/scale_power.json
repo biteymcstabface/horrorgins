@@ -1,0 +1,8 @@
+{
+  "type": "horrorgins:scale_power",
+  "condition": {
+    "type": "origins:power_active",
+    "power": "horrorgins:wolf_dummy"
+  },
+  "hidden": true
+}

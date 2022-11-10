@@ -1,0 +1,11 @@
+{
+  "type": "origins:invisibility",
+  "render_armor": true,
+  "condition": {
+    "type": "origins:power_active",
+    "power": "origins:phantomize",
+    "invert": true
+  },
+  "name": "Invisibility",
+  "description": "You can turn invisible for a time, protecting yourself from the sun at the cost of your powers."
+}

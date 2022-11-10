@@ -1,0 +1,14 @@
+{
+  "type": "origins:modify_break_speed",
+  "modifier": {
+    "name": "Unbreakable blocks",
+    "value": -1,
+    "operation": "multiply_total"
+  },
+  "condition": {
+    "type": "origins:power_active",
+    "power": "origins:phantomize"
+  },
+  "name": "Spectral Hands",
+  "description": "Whilst invisible, you have lost your ability to manipulate the world around you."
+}

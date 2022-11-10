@@ -1,0 +1,16 @@
+{
+  "type": "origins:conditioned_attribute",
+  "tick_rate": 40,
+  "modifier": {
+    "name": "Natural Armor health bonus",
+    "attribute": "minecraft:generic.armor",
+    "value": 10.0,
+    "operation": "addition"
+  },
+  "condition": {
+    "type": "origins:power_active",
+    "power": "horrorgins:wolf_dummy"
+  },
+  "name": "Tough Hide",
+  "description": "Your skin develops a tough fur that protects you from harm."
+}

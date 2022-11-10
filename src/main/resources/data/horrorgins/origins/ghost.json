@@ -1,0 +1,21 @@
+{
+	"powers": [
+		"horrorgins:air_swimming",
+		"horrorgins:no_exhaustion",
+		"origins:phantomize",
+		"horrorgins:phasing",
+		"origins:fall_immunity",
+		"horrorgins:no_armor",
+		"origins:translucent",
+		"horrorgins:invisibility",
+		"horrorgins:damage_from_sun",
+		"horrorgins:vulnerable",
+		"horrorgins:weak_arms",
+		"horrorgins:no_attack"
+	],
+	"icon": "minecraft:glass",
+	"order": 4,
+	"impact": 2,
+	"name": "Ghost",
+	"description": "These spirits can fly through the world as if it were all water, but must beware the fury of the sun. They may go invisible to temporarily avoid this danger, but lose some of their power while doing so."
+}

@@ -1,0 +1,35 @@
+{
+  "type": "origins:phasing",
+  "blacklist": true,
+  "view_distance": 25,
+  "block_condition": {
+    "type": "origins:in_tag",
+    "tag": "origins:unphasable"
+  },
+  "condition": {
+    "type": "origins:power_active",
+    "power": "origins:phantomize",
+    "inverted": true
+  },
+  "phase_down_condition": {
+    "type": "origins:or",
+    "conditions": [
+      {
+        "type": "origins:and",
+        "conditions": [
+          {
+            "type": "origins:sneaking"
+          },
+          {
+            "type": "origins:on_block"
+          }
+        ]
+      },
+      {
+        "type": "origins:swimming"
+      }
+    ]
+  },
+  "name": "Phasing",
+  "description": "You may pass through blocks while not invisible."
+}

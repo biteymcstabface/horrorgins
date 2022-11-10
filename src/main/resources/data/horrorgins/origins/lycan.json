@@ -1,0 +1,29 @@
+{
+	"powers": [
+		"horrorgins:wolf_form",
+		"horrorgins:wolf_howl",
+		"horrorgins:sprint_jump",
+		"horrorgins:natural_armor",
+		"horrorgins:strong_legs",
+		"horrorgins:sharp_claws",
+		"horrorgins:wolf_feed_on_kill",
+		"horrorgins:wolf_night_vision",
+
+		"horrorgins:hide_nametag",
+		"horrorgins:wolf_dummy",
+		"horrorgins:scale_power",
+
+		"origins:carnivore",
+		"horrorgins:restlessness",
+		"horrorgins:no_sword",
+		"horrorgins:wolf_no_armor",
+		"horrorgins:more_magic_damage",
+		"horrorgins:more_exhaustion"
+
+	],
+	"icon": "minecraft:bone",
+	"order": 4,
+	"impact": 2,
+	"name": "Lycan",
+	"description": "These creatures appear as normal humans during the day, but are transformed by the light of the Moon."
+}

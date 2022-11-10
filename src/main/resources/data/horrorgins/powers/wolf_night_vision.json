@@ -1,0 +1,19 @@
+{
+  "type": "origins:stacking_status_effect",
+  "min_stacks": -1,
+  "max_stacks": 1,
+  "duration_per_stack": 600,
+  "tick_rate": 20,
+  "effect": {
+    "effect": "minecraft:night_vision",
+    "is_ambient": true,
+    "show_particles": false,
+    "show_icon": false
+  },
+  "condition": {
+    "type": "origins:power_active",
+    "power": "horrorgins:wolf_dummy"
+  },
+  "name": "Hunter's eyes",
+  "description": "While in wolf form, you can see perfectly in the dark"
+}

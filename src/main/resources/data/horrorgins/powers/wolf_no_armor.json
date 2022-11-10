@@ -1,0 +1,29 @@
+{
+  "type": "origins:conditioned_restrict_armor",
+  "head": {
+    "type": "origins:armor_value",
+    "comparison": ">",
+    "compare_to": 0
+  },
+  "chest": {
+    "type": "origins:armor_value",
+    "comparison": ">",
+    "compare_to": 0
+  },
+  "legs": {
+    "type": "origins:armor_value",
+    "comparison": ">",
+    "compare_to": 0
+  },
+  "feet": {
+    "type": "origins:armor_value",
+    "comparison": ">",
+    "compare_to": 0
+  },
+  "condition": {
+    "type": "origins:power_active",
+    "power": "horrorgins:wolf_dummy"
+  },
+  "name": "Thick fur",
+  "description": "Armor is not adapted for the body of a wolf"
+}

@@ -1,0 +1,29 @@
+{
+  "schemaVersion": 1,
+  "id": "horrorgins",
+  "version": "${version}",
+  "name": "Horrorgins",
+  "description": "",
+  "authors": [],
+  "contact": {},
+  "license": "MIT",
+  "icon": "assets/horrorgins/icon.png",
+  "environment": "*",
+  "entrypoints": {
+    "client": [
+      "io.github.biteymcstabface.horrorgins.client.HorrorginsClient"
+    ],
+    "main": [
+      "io.github.biteymcstabface.horrorgins.Horrorgins"
+    ]
+  },
+  "mixins": [
+    "horrorgins.mixins.json"
+  ],
+  "accessWidener": "horrorgins.accesswidener",
+  "depends": {
+    "fabricloader": ">=0.14.10",
+    "fabric": "*",
+    "minecraft": "1.19.2"
+  }
+}

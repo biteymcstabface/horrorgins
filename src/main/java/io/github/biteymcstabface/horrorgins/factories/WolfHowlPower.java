@@ -33,7 +33,7 @@ public class WolfHowlPower extends ActiveCooldownPower{
             //loops while the number of items in the  wolves arraylist is less than 3
             while(wolves.size() < 3){
                 //creates a wolf entity called e
-                WolfEntity e = EntityType.WOLF.create(entity.world);
+                WolfEntity e = EntityType.WOLF.create(entity.getWorld());
                 //if e exists
                 if(e != null) {
                     //sets the player who used the power as the owner (making the wolf tamed)
@@ -41,7 +41,7 @@ public class WolfHowlPower extends ActiveCooldownPower{
                     //sets the wolf positions to that of the player
                     e.refreshPositionAndAngles(entity.getPos().x, entity.getPos().y, entity.getPos().z, entity.getYaw(), entity.getPitch());
                     //spawns the wolf
-                    entity.world.spawnEntity(e);
+                    entity.getWorld().spawnEntity(e);
                     //adds the new wolf (e) to the arraylist
                     wolves.add(e);
                 }

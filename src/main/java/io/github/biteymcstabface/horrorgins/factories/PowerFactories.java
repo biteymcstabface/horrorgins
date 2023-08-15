@@ -2,7 +2,7 @@ package io.github.biteymcstabface.horrorgins.factories;
 
 import io.github.apace100.apoli.power.factory.PowerFactory;
 import io.github.apace100.apoli.registry.ApoliRegistries;
-import net.minecraft.util.registry.Registry;
+import net.minecraft.registry.Registry;
 
 public class PowerFactories {
 

@@ -21,7 +21,7 @@ public class WolfFormPower extends Power {
         super(type, entity);
         this.action = action;
         this.setTicking();
-        this.wolfEntity =  EntityType.WOLF.create(entity.world);
+        this.wolfEntity =  EntityType.WOLF.create(entity.getWorld());
     }
 
     @Override

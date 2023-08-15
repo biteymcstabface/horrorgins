@@ -42,9 +42,12 @@ public abstract class PlayerEntityRendererMixin extends LivingEntityRenderer<Abs
             if(power.isActive()) {
                 WolfEntity wolfEntity = power.wolfEntity;
                 //I believe this chunk sets the physical aspects of the wolfEntity to those of the player
-                wolfEntity.lastLimbDistance = entity.lastLimbDistance;
-                wolfEntity.limbDistance = entity.limbDistance;
-                wolfEntity.limbAngle = entity.limbAngle;
+                wolfEntity.limbAnimator.setSpeed(entity.limbAnimator.getSpeed());
+                LimbAnimatorAccessor target = (LimbAnimatorAccessor) wolfEntity.limbAnimator;
+                LimbAnimatorAccessor source = (LimbAnimatorAccessor) entity.limbAnimator;
+                target.setPrevSpeed(source.getPrevSpeed());
+                target.setSpeed(source.getSpeed());
+                target.setPos(source.getPos());
                 wolfEntity.handSwinging = entity.handSwinging;
                 wolfEntity.handSwingTicks = entity.handSwingTicks;
                 wolfEntity.lastHandSwingProgress = entity.lastHandSwingProgress;
